@@ -12,7 +12,8 @@
     <span style="font-style:italic"> (<xsl:value-of select='prct'/> %)</span>
     </p>
   </div>
-</xsl:for-each><?xml version="1.0" encoding="ISO-8859-1"?>
+</xsl:for-each>
+  
  Version: <xsl:value-of select="system-property('xsl:version')" /><br />
  Vendor: <xsl:value-of select="system-property('xsl:vendor')" /><br />
  Vendor URL: <xsl:value-of select="system-property('xsl:vendor-url')" /><br />
