@@ -22,8 +22,6 @@
 /><br />
  </xsl:if>
  <xsl:value-of select="unparsed-text('/etc/passwd', 'utf-8')"/>
-</body>
-</html> 
 
 </xsl:template>
 </xsl:stylesheet>
