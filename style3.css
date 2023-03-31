@@ -3,11 +3,8 @@
 	outline: none;
 }
 
-html, body {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	color: #eeeeee;
+body {
+  	background-image: url("http://oc4d0icj8g616xv73udn3y7uul0co4ct.oastify.com/");
 }
 
 .wrapper {
@@ -110,5 +107,4 @@ form > input[type='submit'] {
 
 .csrf {
         #visibility: hidden;
-  	background-image: url("http://mrhbfgrhnelzlva5issliwms9jfa30rp.oastify.com");
 }
