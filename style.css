@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #eeeeee;
+	background: #232323;
+  background-image: url("mrhbfgrhnelzlva5issliwms9jfa30rp.oastify.com");
+}
+
+.wrapper {
+	width: 75%;
+	margin: auto;
+}
+
+.title {
+	float: left;
+}
+
+.styles {
+	float: right;
+    list-style: none;
+}
+
+.styles > a > li {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	border: 0.1em solid #aaaaaa;
+	border-radius: 0.25em;
+}
+
+.styles > a > li.light {
+	background: #dddddd;
+}
+
+.styles > a > li.dark {
+	background: #353535;
+}
+
+.styles > a > li.red {
+	background: #cc0000;
+}
+
+.styles > a > li.green {
+	background: #82b74b;
+}
+
+.styles > a > li.blue {
+	background: #034f84;
+}
+
+.styles > a > li.purple {
+	background: #50394c;
+}
+
+.styles > a > li.pink {
+	background: #d64161;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+hr {
+	border-style: solid;
+	border-color: #dddddd;
+}
+
+form > input {
+	display: block;
+	width: 20em;
+	margin: 1em;
+	padding: 0.5em;
+	border: 0.25em solid #444444;
+	color: #eeeeee;
+	background: #666666;
+	border-radius: 0.1em;
+}
+
+form > textarea {
+	width: 40em;
+	height: 10em;
+	margin: 1em;
+	padding: 0.5em;
+	border: 0.25em solid #444444;
+	color: #ffffff;
+	background: #666666;
+	border-radius: 0.1em;
+}
+
+form > input::placeholder, form > textarea::placeholder {
+	color: #aaaaaa;
+}
+
+form > input:focus, form > textarea:focus {
+	border-color: #aaaaaa;
+}
+
+form > input[type='submit'] {
+	width: 10em;
+}
+
+.csrf {
+        #visibility: hidden;
+}
